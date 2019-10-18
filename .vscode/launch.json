@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome",
+            "url": "http://localhost",
+            "webRoot": "${workspaceFolder}",
+            "runtimeArgs": [
+                "--load-extension=${env:userprofile}/AppData/Local/Google/Chrome/User Data/Default/Extensions/fmkadmapgofadopljbjfkapdkoienihi/4.2.0_0"
+            ]
+        }
+    ]
+}
