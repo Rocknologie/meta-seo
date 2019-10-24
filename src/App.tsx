@@ -1,8 +1,12 @@
 import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 
-const App: React.FC = () => {
-    return <div>Hello World</div>
-}
-
-export default App;
+export const App: React.FC = () => (
+    <BrowserRouter>
+        <Switch>
+            <Route exact path="/" />
+            <Route />
+        </Switch>
+    </BrowserRouter>
+)
