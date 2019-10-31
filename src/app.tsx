@@ -1,19 +1,24 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import { Container } from 'semantic-ui-react'
 import './app.css';
 import { MainPage } from './main-page';
 import { AgencePage } from './agence-page';
-import { Navbar } from './navbar';
+import { Header } from './header';
 
 export const App: React.FC = () => (
     <BrowserRouter>
-        <Container>
-            <Navbar></Navbar>   
-        </Container>
         <Switch>
-            <Route exact path="/" component={MainPage} />
-            <Route exact path="/agence" component={AgencePage}/>
+            <Container>
+                <Route path='/'>
+                    <Header />
+                </Route>
+                <Route exact path='/'>
+                    <Redirect to='/home' />
+                </Route>
+                <Route exact path="/home" component={MainPage} />
+                <Route exact path="/agence" component={AgencePage}/>
+            </Container>
         </Switch>
     </BrowserRouter>
 )
