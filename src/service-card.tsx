@@ -5,11 +5,12 @@ interface ServiceCardProps {
     img: string;
     title: string;
     content: string;
+    href: string;
 }
 
 export const ServiceCard: React.FC<ServiceCardProps> = (props) => (
     <Card color='yellow'>
-        <Image src={props.img} size='medium' wrapped ui={false}/>
+        <Image src={props.img}  height='50' wrapped ui={false}/>
         <Card.Content color='blue'>
             <Card.Header >
                 <p>{props.title}</p>
@@ -19,26 +20,9 @@ export const ServiceCard: React.FC<ServiceCardProps> = (props) => (
             </Card.Description>           
         </Card.Content>
         <Card.Content extra>
-        <Button color='blue'>
+        <Button color='blue' href={props.href}>
             Voir l'offre
           </Button>
         </Card.Content>
     </Card> 
 )
-
-
-{/* 
-    <Card>
-            <Image src='./img/marvin-meyer.jpg' wrapped ui={false} />
-            <Card.Content>
-            <Card.Header>Titre</Card.Header>
-             <Card.Meta>
-                <span className='date'>Joined in 2015</span>
-            </Card.Meta>
-            
-            <Card.Description>
-                CONTENUE 
-            </Card.Description>
-            </Card.Content>
-        </Card> 
-*/}
