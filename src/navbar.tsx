@@ -25,6 +25,7 @@ import { Menu, Dropdown } from 'semantic-ui-react'
         </Dropdown>
 
         <Menu.Menu position='right'>
+          <Menu.Item name='blog' href='blog'>Blog</Menu.Item>
           <Menu.Item name='contact' href='contact'>Contact</Menu.Item>
         </Menu.Menu>
     </Menu>
