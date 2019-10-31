@@ -5,6 +5,7 @@ import './app.css';
 import { MainPage } from './main-page';
 import { AgencePage } from './agence-page';
 import { Header } from './header';
+import { Footer } from './footer';
 import { Contact } from './contact';
 
 export const App: React.FC = () => (
@@ -25,6 +26,9 @@ export const App: React.FC = () => (
                 </Route>            
                 <Route exact path="/contact">
                     <Contact />
+                </Route>
+                <Route path='/'>
+                    <Footer />
                 </Route>
             </Container>
         </Switch>
