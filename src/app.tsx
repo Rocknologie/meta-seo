@@ -16,8 +16,12 @@ export const App: React.FC = () => (
                 <Route exact path='/'>
                     <Redirect to='/home' />
                 </Route>
-                <Route exact path="/home" component={MainPage} />
-                <Route exact path="/agence" component={AgencePage}/>
+                <Route exact path="/home">
+                    <MainPage />
+                </Route>
+                <Route exact path="/agence">
+                    <AgencePage />
+                </Route>
             </Container>
         </Switch>
     </BrowserRouter>
