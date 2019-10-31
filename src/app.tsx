@@ -5,6 +5,7 @@ import './app.css';
 import { MainPage } from './main-page';
 import { AgencePage } from './agence-page';
 import { Header } from './header';
+import { Contact } from './contact';
 
 export const App: React.FC = () => (
     <BrowserRouter>
@@ -21,6 +22,9 @@ export const App: React.FC = () => (
                 </Route>
                 <Route exact path="/agence">
                     <AgencePage />
+                </Route>            
+                <Route exact path="/contact">
+                    <Contact />
                 </Route>
             </Container>
         </Switch>
