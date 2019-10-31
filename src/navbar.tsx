@@ -1,9 +1,8 @@
 import React from 'react'
-import { Menu, Dropdown, Container } from 'semantic-ui-react'
+import { Menu, Dropdown } from 'semantic-ui-react'
 
-export const Navbar: React.FC = () => (
-    <Container>
-      <Menu inverted >
+  export const Navbar: React.FC = () => (
+      <Menu inverted>
         <Menu.Item name='meta-seo'>Meta-SEO</Menu.Item>
         <Menu.Item name='agence'>Agence</Menu.Item>
 
@@ -29,6 +28,5 @@ export const Navbar: React.FC = () => (
           <Menu.Item name='blog'>Blog</Menu.Item>
           <Menu.Item name='contact'>Contact</Menu.Item>
         </Menu.Menu>
-      </Menu>
-      </Container>
+    </Menu>
 )
