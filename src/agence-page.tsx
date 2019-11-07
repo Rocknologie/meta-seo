@@ -4,6 +4,7 @@ import { Grid, Header } from 'semantic-ui-react'
 import { Divide } from './divider'
 import { LineFeed } from './line-feed'
 import { TeamCard } from './team-card'
+import { equal } from 'assert';
 
 export const AgencePage: React.FC = () => (
     <div>
@@ -18,7 +19,7 @@ export const AgencePage: React.FC = () => (
         {/* Team */}
         <Header as='h2'textAlign='center'>L'équipe de notre agence SEO </Header>
 
-        <Grid centered columns={3}>
+        <Grid>
             <Grid.Row centered columns={3}>
                 <Grid.Column >
                     <TeamCard img='./img/daniel.jpg' title='Daniel' content='Consultant SEO'></TeamCard>                         

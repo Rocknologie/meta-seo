@@ -8,7 +8,7 @@ interface TeamCardProps {
 }
 
 export const TeamCard: React.FC<TeamCardProps> = (props) => (
-    <Card color='yellow'>
+    <Card centered color='yellow'>
         <Image src={props.img}  height='50' wrapped ui={false}/>
         <Card.Content color='blue'>
             <Card.Header >
