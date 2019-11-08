@@ -5,11 +5,12 @@ interface TeamCardProps {
     img: string;
     title: string;
     content: string;
+    alt: string;
 }
 
 export const TeamCard: React.FC<TeamCardProps> = (props) => (
     <Card centered color='yellow'>
-        <Image src={props.img}  height='50' wrapped ui={false}/>
+        <Image alt={props.alt} src={props.img}  height='50' wrapped ui={false}/>
         <Card.Content color='blue'>
             <Card.Header >
                 <p>{props.title}</p>
@@ -23,7 +24,6 @@ export const TeamCard: React.FC<TeamCardProps> = (props) => (
             <Icon name='pinterest' size='large' />
             <Icon name='twitter' size='large' />
             <Icon name='facebook' size='large' />
-            {/*PAS OPTIMISÉ */}
         </Card.Content>
-    </Card> 
+    </Card>
 )
