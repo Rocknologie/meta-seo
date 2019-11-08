@@ -4,6 +4,7 @@ import { Card, Image, Icon } from 'semantic-ui-react'
 interface TeamCardProps {
     img: string;
     title: string;
+    meta: string;
     content: string;
     alt: string;
 }
@@ -15,6 +16,9 @@ export const TeamCard: React.FC<TeamCardProps> = (props) => (
             <Card.Header >
                 <p>{props.title}</p>
             </Card.Header>
+            <Card.Meta>
+                <span>{props.meta}</span>
+            </Card.Meta>
             <Card.Description>
                 <p>{props.content}</p>
             </Card.Description>           
