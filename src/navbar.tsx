@@ -3,7 +3,9 @@ import { Menu, Dropdown } from 'semantic-ui-react'
 
   export const Navbar: React.FC = () => (
       <Menu inverted>
-        <Menu.Item name='meta-seo' href='/home'>Meta-SEO</Menu.Item>
+        <Menu.Item name='meta-seo' href='/home'>
+          <img alt='logo' src='logo.png'/>
+          </Menu.Item>
         <Menu.Item name='agence' href='/agence'>Agence</Menu.Item>
 
         <Dropdown item text='Services'>
@@ -20,7 +22,6 @@ import { Menu, Dropdown } from 'semantic-ui-react'
             </Dropdown.Item>
             <Dropdown.Item  href='audit-seo'>Audit SEO</Dropdown.Item>
             <Dropdown.Item href='formation'>Formations</Dropdown.Item>
-            <Dropdown.Item href='e-reputation'>E-Réputation</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
 
