@@ -9,7 +9,7 @@ interface ServiceCardProps {
 }
 
 export const ServiceCard: React.FC<ServiceCardProps> = (props) => (
-    <Card color='yellow'>
+    <Card color='yellow' centered >
         <Image src={props.img}  height='50' wrapped ui={false}/>
         <Card.Content color='blue'>
             <Card.Header >
