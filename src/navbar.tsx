@@ -6,7 +6,7 @@ export const Navbar: React.FC = () => (
     <Menu.Item name='meta-seo' href='/home'>
       <img alt='logo' src='logo.png'/>
       </Menu.Item>
-    <Menu.Item name='agence' href='/agence'>Agence</Menu.Item>
+    <Menu.Item name='agence' href='/agence'>Notre agence</Menu.Item>
 
     <Dropdown item text='Services'>
       <Dropdown.Menu>
