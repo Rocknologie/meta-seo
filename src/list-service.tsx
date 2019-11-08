@@ -4,7 +4,7 @@ import { ServiceCard } from './service-card'
 import { Divide } from './divider'
 import { equal } from 'assert'
 
-export const ListCard: React.FC = () => (
+export const ListService: React.FC = () => (
     <div>
         <Header as='h1' textAlign='left'>Agence de référencement de site web</Header>
 
@@ -36,9 +36,6 @@ export const ListCard: React.FC = () => (
                 </Grid.Column>
                 <Grid.Column>
                     <ServiceCard img='./img/schema.png' title='Audit SEO' content='Nous offrons un service d’audit SEO afin de vérifier avec vous ce qui est à améliorer pour booster votre site web.' href='audit-seo'/>                         
-                </Grid.Column>
-                <Grid.Column>
-                    <ServiceCard img='./img/computer-schema.png' title='E-Réputation' content='L’e-réputation est un point important pour gagner la confiance de vos internautes et améliorer votre image de marque.' href='e-reputation'/>                       
                 </Grid.Column>
                 <Grid.Column>
                     <ServiceCard img='./img/pc.png' title='Formations' content='Nous vous proposons des formations en lien avec tous nos services afin de vous rendre autonome sur le référencement SEO.' href='formation'/>
