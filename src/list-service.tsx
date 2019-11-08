@@ -2,14 +2,9 @@ import React from 'react'
 import { Grid, Header } from 'semantic-ui-react'
 import { ServiceCard } from './service-card'
 import { Divide } from './divider'
-import { equal } from 'assert'
 
 export const ListService: React.FC = () => (
     <div>
-        <Header as='h1' textAlign='left'>Agence de référencement de site web</Header>
-
-        <p>Le référencement de site web est devenu un point clé pour générer du trafic sur votre site web. Une bonne visibilité ainsi qu’une performance accrue sont primordiales pour parvenir à répondre aux besoins de vos clients ou de vos internautes, tout type de site confondu (e-commerce, forum, services, etc…).</p>
-
         <Header as='h2' textAlign='left'>Référencement de site web</Header>
 
         <Grid textAlign='center' columns='equal' divided>
@@ -26,7 +21,7 @@ export const ListService: React.FC = () => (
             </Grid.Row>
         </Grid>
         
-        <Divide></Divide>
+        <Divide />
         <Header as='h2' textAlign='left'>Nos services supplémentaires de référencement de site web</Header>
 
         <Grid textAlign='center' columns='equal' divided>     

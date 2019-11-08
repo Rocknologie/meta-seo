@@ -4,7 +4,7 @@ import { LineFeed } from './line-feed'
 
 export const Contact: React.FC = () => (
     <div>
-        <LineFeed></LineFeed>
+        <LineFeed />
         <Header as='h1' textAlign='left'>Nous contacter</Header>
 
         <Form>

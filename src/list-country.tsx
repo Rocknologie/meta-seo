@@ -3,7 +3,6 @@ import { Grid, Image, Popup } from 'semantic-ui-react'
 import { PopupCity } from './popup-city'
 
 export const ListCountry: React.FC = () => (
-    <div>        
     <Grid>
         <Grid.Row columns={4}>
             <Grid.Column width={4}>
@@ -18,7 +17,6 @@ export const ListCountry: React.FC = () => (
             <Grid.Column width={4}>
                 <PopupCity alt='Ville de Bordeaux' src='/img/city/bordeaux.jpg' content='Bordeaux' href='https://www.google.fr/maps/place/Bordeaux/@44.8637834,-0.6211603,13z/data=!3m1!4b1!4m5!3m4!1s0xd5527e8f751ca81:0x796386037b397a89!8m2!3d44.837789!4d-0.57918'/> 
             </Grid.Column>   
-        </Grid.Row>             
-    </Grid></div>
-    
+        </Grid.Row>  
+    </Grid>
 )
