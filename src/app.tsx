@@ -80,13 +80,13 @@ export const App: React.FC = () => (
                 <Route exact path="/blog">
                     <BlogPage />
                 </Route>
-                <Route exact path='/blog/articles/1'>
+                <Route exact path='/blog/articles/google-rend-son-moteur-de-recherche-encore-plus-intelligent'>
                     <Article1Page />
                 </Route> 
-                <Route exact path='/blog/articles/2'>
+                <Route exact path='/blog/articles/le-black-friday-et-ses-impacts-sur-le-SEO'>
                     <Article2Page />
                 </Route> 
-                <Route exact path='/blog/articles/3'>
+                <Route exact path='/blog/articles/pourquoi-avoir-recours-a-une-agence-de-seo'>
                     <Article3Page />
                 </Route> 
 
