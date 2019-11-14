@@ -22,12 +22,17 @@ export const AgenceBordeauxPage: React.FC = () => (
         <Divide />
 
         <Grid columns={4}>
-            <Grid.Column only='widescreen' widescreen={12}></Grid.Column>
-        {/* List city */}
-        <Grid.Column only='widescreen' widescreen={4}>
-            <Header as='h2'textAlign='center'>Où trouver nos autres agences SEO ?</Header>
-            <ListCountry />
-        </Grid.Column>
-    </Grid>
-</div>
+            <Grid.Column only='widescreen' widescreen={12}>
+                <article>
+                    {/* Contenu de l'agence bordeaux */}
+                </article>
+            </Grid.Column>
+            
+            {/* List city */}
+            <Grid.Column only='widescreen' widescreen={4}>
+                <Header as='h2'textAlign='center'>Où trouver nos autres agences SEO ?</Header>
+                <ListCountry />
+            </Grid.Column>
+        </Grid>
+    </div>
 )
