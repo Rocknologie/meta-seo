@@ -21,7 +21,7 @@ export const Navbar: React.FC = () => (
           </Dropdown>
         </Dropdown.Item>
         <Dropdown.Item  href='/services/audit-seo'>Audit SEO</Dropdown.Item>
-        <Dropdown.Item href='/services/formation'>Formations</Dropdown.Item>
+        <Dropdown.Item href='/services/formations'>Formations</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
 

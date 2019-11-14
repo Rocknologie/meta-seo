@@ -24,29 +24,30 @@ export const AgencePage: React.FC = () => (
 
         <Grid columns={4}>
             <Grid.Column only='widescreen' widescreen={12}>        
-                
-                {/* Team */}
-                <Header as='h2'textAlign='center'>L'équipe de notre agence SEO </Header>
-                <Grid>
-                    <Grid.Row centered columns={3}>
-                        <Grid.Column >
-                            <TeamCard img='./img/nan.jpg' title='Nancy' meta='Directrice' content='Consultante en référencement naturel depuis 2012, Nancy a décidé de fonder sa propre agence SEO pour continuer à vivre de sa passion tout en gérant sa propre entreprise.' alt='dessin'></TeamCard>
-                        </Grid.Column>
-                        <Grid.Column >
-                            <TeamCard img='./img/joe.jpg' title='Joe' meta='Responsable SEO' content='Ancien responsable d’une équipe de développeurs pour une plateforme d’e-commerce, Joe a décidé de continuer la chefferie de projet dans le domaine du référencement SEO. Il gère notre équipe composée de nos deux consultants et de notre analyste-formatrice.' alt=''></TeamCard>
-                        </Grid.Column>
-                        <Grid.Column >
-                            <TeamCard img='./img/daniel.jpg' title='Daniel' meta='Consultant SEO' content='Fraîchement diplômé, Daniel vit de sa passion pour le consulting SEO. Il participe également à de nombreuses conférences où vous pourrez le retrouver.' alt=''></TeamCard>                         
-                        </Grid.Column>              
-                        <LineFeed></LineFeed>                
-                        <Grid.Column >
-                            <TeamCard img='./img/patrick.jpg' title='Patrick' meta='Analyste SEO' content='Grâce à de nombreuses années d’expérience, Patrick est devenu un expert SEO, notamment dans le référencement naturel, mobile et social. C’est également lui qui gère notre service d’audit SEO.' alt=''></TeamCard>
-                        </Grid.Column>  
-                        <Grid.Column >
-                            <TeamCard img='./img/stevie.jpg' title='Stevie' meta='Analyste-formatrice SEO' content='En plus de ses compétences d’analyste SEO, Stevie est également la formatrice de notre agence SEO : c’est elle qui vous suivra lors de vos différentes formations.' alt=''></TeamCard>
-                        </Grid.Column>
-                    </Grid.Row>
-                </Grid>
+                <article>
+                    {/* Team */}
+                    <Header as='h2'textAlign='center'>L'équipe de notre agence SEO </Header>
+                    <Grid>
+                        <Grid.Row centered columns={3}>
+                            <Grid.Column >
+                                <TeamCard img='./img/nan.jpg' title='Nancy' meta='Directrice' content='Consultante en référencement naturel depuis 2012, Nancy a décidé de fonder sa propre agence SEO pour continuer à vivre de sa passion tout en gérant sa propre entreprise.' alt='dessin'></TeamCard>
+                            </Grid.Column>
+                            <Grid.Column >
+                                <TeamCard img='./img/joe.jpg' title='Joe' meta='Responsable SEO' content='Ancien responsable d’une équipe de développeurs pour une plateforme d’e-commerce, Joe a décidé de continuer la chefferie de projet dans le domaine du référencement SEO. Il gère notre équipe composée de nos deux consultants et de notre analyste-formatrice.' alt=''></TeamCard>
+                            </Grid.Column>
+                            <Grid.Column >
+                                <TeamCard img='./img/daniel.jpg' title='Daniel' meta='Consultant SEO' content='Fraîchement diplômé, Daniel vit de sa passion pour le consulting SEO. Il participe également à de nombreuses conférences où vous pourrez le retrouver.' alt=''></TeamCard>                         
+                            </Grid.Column>              
+                            <LineFeed></LineFeed>                
+                            <Grid.Column >
+                                <TeamCard img='./img/patrick.jpg' title='Patrick' meta='Analyste SEO' content='Grâce à de nombreuses années d’expérience, Patrick est devenu un expert SEO, notamment dans le référencement naturel, mobile et social. C’est également lui qui gère notre service d’audit SEO.' alt=''></TeamCard>
+                            </Grid.Column>  
+                            <Grid.Column >
+                                <TeamCard img='./img/stevie.jpg' title='Stevie' meta='Analyste-formatrice SEO' content='En plus de ses compétences d’analyste SEO, Stevie est également la formatrice de notre agence SEO : c’est elle qui vous suivra lors de vos différentes formations.' alt=''></TeamCard>
+                            </Grid.Column>
+                        </Grid.Row>
+                    </Grid>
+                </article>
             </Grid.Column>
 
             {/* List city */}

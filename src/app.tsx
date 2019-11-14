@@ -19,6 +19,9 @@ import { SocialReferencingPage } from './services/social-referencing'
 import { NetlinkingPage } from './services/netlinking'
 import { BlogPage } from './blog'
 import { ContactPage } from './components/contact';
+import { Article1Page } from './articles/article-1';
+import { Article2Page } from './articles/article-2';
+import { Article3Page } from './articles/article-3';
 
 export const App: React.FC = () => (
     <BrowserRouter>
@@ -68,7 +71,7 @@ export const App: React.FC = () => (
                 <Route exact path='/services/audit-seo'>
                     <AuditPage />
                 </Route>  
-                <Route exact path='/services/formation'>
+                <Route exact path='/services/formations'>
                     <FormationPage />
                 </Route> 
 
@@ -77,6 +80,16 @@ export const App: React.FC = () => (
                 <Route exact path="/blog">
                     <BlogPage />
                 </Route>
+                <Route exact path='/blog/articles/google-rend-son-moteur-de-recherche-encore-plus-intelligent'>
+                    <Article1Page />
+                </Route> 
+                <Route exact path='/blog/articles/le-black-friday-et-ses-impacts-sur-le-SEO'>
+                    <Article2Page />
+                </Route> 
+                <Route exact path='/blog/articles/pourquoi-avoir-recours-a-une-agence-de-seo'>
+                    <Article3Page />
+                </Route> 
+
                 <Route exact path="/contact">
                     <ContactPage />
                 </Route>
