@@ -16,7 +16,7 @@ export const AuditPage: React.FC = () => (
         {/* Formation description */}
         <p>Vous souhaitez savoir si votre site web a besoin d’être optimisé, vous souhaitez savoir par où commencer pour améliorer son référencement ? L’audit SEO que nous proposons est fait pour répondre à toutes ces questions. Notre agence dispose d’un outil puissant dans le but de réaliser des audits SEO complets et détaillés. Développé et maintenu par nos soins, notre outil propriétaire est en permanence mis à jour en fonction des nouvelles tendances et des bonnes pratiques de SEO émergentes, tout type de référencement confondu (naturel, mobile, social). L’objectif est d’analyser en profondeur le contenu de votre site web, ses mots-clés et ses balises HTML.</p>
 
-        <Image src='/img/schema.png' size='large' alt='Audit SEO outil'/>
+        <Image src='/img/' size='large' alt='Audit SEO outil'/>
 
         <LineFeed />
 
