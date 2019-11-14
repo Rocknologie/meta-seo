@@ -71,7 +71,7 @@ export const App: React.FC = () => (
                 <Route exact path='/services/audit-seo'>
                     <AuditPage />
                 </Route>  
-                <Route exact path='/services/formation'>
+                <Route exact path='/services/formations'>
                     <FormationPage />
                 </Route> 
 
