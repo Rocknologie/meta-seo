@@ -1,1 +1,6 @@
+#
+# Robots.txt
+# Welcome on Meta-SEO
+#
 User-agent: *
+Disallow: /blog
