@@ -1,10 +1,10 @@
 import React from 'react'
 import { Grid, Icon } from 'semantic-ui-react'
-import { Divide } from './divider'
-import { LineFeed } from './line-feed'
+import { Divide } from './components/divider'
+import { LineFeed } from './components/line-feed'
 
 export const Footer: React.FC = () => (
-    <div>
+    <footer>
         <Divide />
         <Grid centered>
             <Grid.Row>
@@ -19,5 +19,5 @@ export const Footer: React.FC = () => (
             </Grid.Row>
             <LineFeed />
         </Grid>
-    </div>
+    </footer>
 )

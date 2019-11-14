@@ -1,3 +1,3 @@
 declare module 'react-meta-tags' {
-    export function MetaTags(): any;
+    export const MetaTags: React.FC;
 }

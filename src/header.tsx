@@ -1,11 +1,11 @@
 import React from 'react'
-import { Navbar } from './navbar'
-import { LineFeed } from './line-feed'
+import { Navbar } from './components/navbar'
+import { LineFeed } from './components/line-feed'
 
 export const Header: React.FC = () => (
-    <div>
+    <header>
         <LineFeed />
         <LineFeed />
         <Navbar />
-    </div>
+    </header>
 )
