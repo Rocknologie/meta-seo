@@ -3,9 +3,9 @@ import { Navbar } from './components/navbar'
 import { LineFeed } from './components/line-feed'
 
 export const Header: React.FC = () => (
-    <div>
+    <header>
         <LineFeed />
         <LineFeed />
         <Navbar />
-    </div>
+    </header>
 )
