@@ -19,6 +19,9 @@ import { SocialReferencingPage } from './services/social-referencing'
 import { NetlinkingPage } from './services/netlinking'
 import { BlogPage } from './blog'
 import { ContactPage } from './components/contact';
+import { Article1Page } from './articles/article-1';
+import { Article2Page } from './articles/article-2';
+import { Article3Page } from './articles/article-3';
 
 export const App: React.FC = () => (
     <BrowserRouter>
@@ -77,6 +80,16 @@ export const App: React.FC = () => (
                 <Route exact path="/blog">
                     <BlogPage />
                 </Route>
+                <Route exact path='/blog/articles/1'>
+                    <Article1Page />
+                </Route> 
+                <Route exact path='/blog/articles/2'>
+                    <Article2Page />
+                </Route> 
+                <Route exact path='/blog/articles/3'>
+                    <Article3Page />
+                </Route> 
+
                 <Route exact path="/contact">
                     <ContactPage />
                 </Route>
