@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid, Header } from 'semantic-ui-react'
 import { ServiceCard } from './service-card'
-import { Divide } from './divider'
+import { Divide } from './components/divider'
 
 export const ListService: React.FC = () => (
     <div>

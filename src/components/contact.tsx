@@ -2,7 +2,7 @@ import React from 'react'
 import { Form, Button, Header, Icon } from 'semantic-ui-react'
 import { LineFeed } from './line-feed'
 
-export const Contact: React.FC = () => (
+export const ContactPage: React.FC = () => (
     <div>
         <LineFeed />
         <Header as='h1' textAlign='left'>Nous contacter</Header>

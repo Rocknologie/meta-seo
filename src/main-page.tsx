@@ -1,8 +1,8 @@
 import React from 'react'
-import { LineFeed } from './line-feed'
+import { LineFeed } from './components/line-feed'
 import { Header } from 'semantic-ui-react'
 import { ListService } from './list-service'
-import { Divide } from './divider'
+import { Divide } from './components/divider'
 import { MetaTags } from 'react-meta-tags'
 
 export const MainPage: React.FC = () => (
