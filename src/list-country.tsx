@@ -3,7 +3,7 @@ import { Grid, Image, Popup } from 'semantic-ui-react'
 import { PopupCity } from './components/popup-city'
 
 export const ListCountry: React.FC = () => (
-    <div>        
+    <aside>        
         <Grid>
             <Grid.Row columns={1} textAlign='center'>
                 <p>Vous pouvez retrouver les conseillers de notre agence SEO en direct dans nos locaux à Paris, Lyon, Bordeaux et Lille. Évidemment, nous sommes également disponible en ligne par téléphone ou par visioconférence. Tout autre moyen de communication est possible, nous nous adaptons à vos envies.</p>
@@ -22,9 +22,8 @@ export const ListCountry: React.FC = () => (
             <Grid.Row columns={1}>
                 <PopupCity alt='Ville de Bordeaux' src='/img/city/bordeaux.jpg' content='Bordeaux' href='/agence/agence-bordeaux'/> 
             </Grid.Row>
-        </Grid>
-                
-    </div>
+        </Grid>                
+    </aside>
 )
 
 /*
