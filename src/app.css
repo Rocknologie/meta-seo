@@ -1,0 +1,6 @@
+body {
+  /*   background: linear-gradient(rgba(48, 34, 248, 0.925), rgba(255, 242, 123, 0.733)); */
+    background-image: url('/img/background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}

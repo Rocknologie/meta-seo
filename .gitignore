@@ -1,0 +1,9 @@
+# NodeJS
+/node_modules
+
+# Production
+/build
+
+# Environment
+.DS_Store
+.env
