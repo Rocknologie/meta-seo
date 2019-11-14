@@ -33,7 +33,7 @@ export const ListService: React.FC = () => (
                     <ServiceCard img='./img/schema.png' title='Audit SEO' content='Nous offrons un service d’audit SEO afin de vérifier avec vous ce qui est à améliorer pour booster votre site web.' href='/services/audit-seo'/>                         
                 </Grid.Column>
                 <Grid.Column>
-                    <ServiceCard img='./img/pc.png' title='Formations' content='Nous vous proposons des formations en lien avec tous nos services afin de vous rendre autonome sur le référencement SEO.' href='/services/formation'/>
+                    <ServiceCard img='./img/pc.png' title='Formations' content='Nous vous proposons des formations en lien avec tous nos services afin de vous rendre autonome sur le référencement SEO.' href='/services/formations'/>
                 </Grid.Column>
             </Grid.Row>
         </Grid>  
