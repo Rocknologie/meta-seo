@@ -10,13 +10,13 @@ export const ListService: React.FC = () => (
         <Grid textAlign='center' columns='equal' divided>
             <Grid.Row>
                 <Grid.Column>
-                    <ServiceCard img='./img/seo.png' title='Référencement Naturel' content='Saviez-vous que la majorité des internautes ne consultait que la première page de Google ? C’est ainsi qu’apparaître en première page est devenu un enjeu essentiel.' href='referencement-naturel'/>                         
+                    <ServiceCard img='./img/seo.png' title='Référencement Naturel' content='Saviez-vous que la majorité des internautes ne consultait que la première page de Google ? C’est ainsi qu’apparaître en première page est devenu un enjeu essentiel.' href='/services/referencement-naturel'/>                         
                 </Grid.Column>
                 <Grid.Column>
-                    <ServiceCard img='./img/mobile.png' title='Référencement Mobile' content='Aujourd’hui, plus de la moitié des recherches Google sont effectuées depuis un smartphone. Les moteurs de recherche classent les résultats en fonction de la version mobile de vos pages, c’est pour cela qu’il est primordial d’optimiser votre site web pour les appareils mobiles.' href='referencement-mobile'/>
+                    <ServiceCard img='./img/mobile.png' title='Référencement Mobile' content='Aujourd’hui, plus de la moitié des recherches Google sont effectuées depuis un smartphone. Les moteurs de recherche classent les résultats en fonction de la version mobile de vos pages, c’est pour cela qu’il est primordial d’optimiser votre site web pour les appareils mobiles.' href='/services/referencement-mobile'/>
                 </Grid.Column>
                 <Grid.Column>
-                    <ServiceCard img='./img/screen.png' title='Référencement social (SMO)' content='Si vous souhaitez davantage de visibilité et de trafic, cette section est faite pour vous. Avec le SMO, nous mettons tout en oeuvre pour assurer une excellente visibilité de vos messages sur les réseaux sociaux.' href='referencement-social'/>                        
+                    <ServiceCard img='./img/screen.png' title='Référencement social (SMO)' content='Si vous souhaitez davantage de visibilité et de trafic, cette section est faite pour vous. Avec le SMO, nous mettons tout en oeuvre pour assurer une excellente visibilité de vos messages sur les réseaux sociaux.' href='/services/referencement-social'/>                        
                 </Grid.Column>
             </Grid.Row>
         </Grid>
@@ -27,13 +27,13 @@ export const ListService: React.FC = () => (
         <Grid textAlign='center' columns='equal' divided>     
             <Grid.Row>
                 <Grid.Column>
-                    <ServiceCard img='./img/ecrou.jpg' title='Netlinking' content='Les moteurs de recherche se basent en grande partie sur le nombre et la qualités des liens reçus par les sites web pour classer leurs résultats.' href='netlinking'/>
+                    <ServiceCard img='./img/ecrou.jpg' title='Netlinking' content='Les moteurs de recherche se basent en grande partie sur le nombre et la qualités des liens reçus par les sites web pour classer leurs résultats.' href='/services/netlinking'/>
                 </Grid.Column>
                 <Grid.Column>
-                    <ServiceCard img='./img/schema.png' title='Audit SEO' content='Nous offrons un service d’audit SEO afin de vérifier avec vous ce qui est à améliorer pour booster votre site web.' href='audit-seo'/>                         
+                    <ServiceCard img='./img/schema.png' title='Audit SEO' content='Nous offrons un service d’audit SEO afin de vérifier avec vous ce qui est à améliorer pour booster votre site web.' href='/services/audit-seo'/>                         
                 </Grid.Column>
                 <Grid.Column>
-                    <ServiceCard img='./img/pc.png' title='Formations' content='Nous vous proposons des formations en lien avec tous nos services afin de vous rendre autonome sur le référencement SEO.' href='formation'/>
+                    <ServiceCard img='./img/pc.png' title='Formations' content='Nous vous proposons des formations en lien avec tous nos services afin de vous rendre autonome sur le référencement SEO.' href='/services/formation'/>
                 </Grid.Column>
             </Grid.Row>
         </Grid>  
