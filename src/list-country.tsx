@@ -10,17 +10,17 @@ export const ListCountry: React.FC = () => (
             </Grid.Row>
 
             <Grid.Row columns={1}>
-                <PopupCity alt='Ville de Lyon' src='/img/city/lyon.jpg' content='Lyon' href='/agence-lyon'/>
+                <PopupCity alt='Ville de Lyon' src='/img/city/lyon.jpg' content='Lyon' href='/agence/agence-lyon'/>
             </Grid.Row>
             
             <Grid.Row columns={1}>
-                <PopupCity alt='Ville de Paris' src='/img/city/paris.jpg' content='Paris' href='/agence-paris'/>   
+                <PopupCity alt='Ville de Paris' src='/img/city/paris.jpg' content='Paris' href='/agence/agence-paris'/>   
             </Grid.Row>
             <Grid.Row columns={1}>
-                <PopupCity alt='Ville de Lille' src='/img/city/lille.jpg' content='Lille' href='/agence-lille'/>   
+                <PopupCity alt='Ville de Lille' src='/img/city/lille.jpg' content='Lille' href='/agence/agence-lille'/>   
             </Grid.Row>
             <Grid.Row columns={1}>
-                <PopupCity alt='Ville de Bordeaux' src='/img/city/bordeaux.jpg' content='Bordeaux' href='/agence-bordeaux'/> 
+                <PopupCity alt='Ville de Bordeaux' src='/img/city/bordeaux.jpg' content='Bordeaux' href='/agence/agence-bordeaux'/> 
             </Grid.Row>
         </Grid>
                 

@@ -4,7 +4,7 @@ import { Menu, Dropdown } from 'semantic-ui-react'
 export const Navbar: React.FC = () => (
   <Menu inverted>
     <Menu.Item name='meta-seo' href='/home'>
-      <img alt='logo' src='logo.png'/>
+      <img alt='logo' src='/logo.png'/>
       </Menu.Item>
     <Menu.Item name='agence' href='/agence'>Notre agence</Menu.Item>
 

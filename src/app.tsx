@@ -38,16 +38,16 @@ export const App: React.FC = () => (
                 <Route exact path="/agence">
                     <AgencePage />
                 </Route>    
-                <Route exact path='/agence/lyon'>
+                <Route exact path='/agence/agence-lyon'>
                     <AgenceLyonPage />
                 </Route>
-                <Route exact path='/agence/paris'>
+                <Route exact path='/agence/agence-paris'>
                     <AgenceParisPage />
                 </Route>
-                <Route exact path='/agence/lille'>
+                <Route exact path='/agence/agence-lille'>
                     <AgenceLillePage />
                 </Route>
-                <Route exact path='/agence/bordeaux'>
+                <Route exact path='/agence/agence-bordeaux'>
                     <AgenceBordeauxPage />
                 </Route>   
 
