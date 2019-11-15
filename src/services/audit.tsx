@@ -7,7 +7,7 @@ export const AuditPage: React.FC = () => (
     <div>
         <MetaTags>
             <title>Audit SEO - Meta-SEO</title>
-            <meta name="description" content='L’audit SEO que nous vous proposons est fait pour vous donner des informations détaillées sur ce qui pourrait être optimisé pour votre site web. Notre agence dispose d’un outil puissant pour réaliser des audits SEO complets.' />
+            <meta name="description" content='L’audit SEO que nous vous proposons est fait pour vous donner des informations détaillées sur ce qui pourrait être optimisé pour votre site web.' />
         </MetaTags>
         
         <LineFeed />

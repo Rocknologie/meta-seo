@@ -11,7 +11,7 @@ export const AgencePage: React.FC = () => (
     <div>
         <MetaTags>
             <title>Notre agence SEO - Meta-SEO</title>
-            <meta name="description" content="Meta-SEO est une agence SEO basée à Paris, Lyon, Bordeaux et Lille. Composée d’une équipe de 5 experts, notre agence offre différents services efficaces tels que le référencement naturel, mobile, social (SMO) et bien d’autres." />
+            <meta name="description" content="Meta-SEO est une agence SEO basée à Paris, Lyon, Bordeaux et Lille." />
         </MetaTags>
         
         <LineFeed />    
