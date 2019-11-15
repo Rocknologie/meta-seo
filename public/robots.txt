@@ -5,4 +5,4 @@
 User-agent: *
 Disallow: /blog
 Disallow: /contact
-Sitemap: http://http://meta-seo.site/sitemap.xml
+Sitemap: http://meta-seo.site/sitemap.xml
