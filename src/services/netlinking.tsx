@@ -8,7 +8,7 @@ export const NetlinkingPage: React.FC = () => (
     <div>
         <MetaTags>
             <title>SEO Backlinks - Meta-SEO</title>
-            <meta name="description" content=' La stratégie des SEO backlinks a pour but d’augmenter la popularité de votre site web. Le but est de vous faire connaître auprès des sites web ayant le même thème que le votre et de gagner la confiance de vos internautes.' />
+            <meta name="description" content='La stratégie des SEO backlinks a pour but d’augmenter la popularité de votre site web.' />
         </MetaTags>
         
         <LineFeed />

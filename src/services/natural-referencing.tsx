@@ -8,7 +8,7 @@ export const NaturalReferencingPage: React.FC = () => (
     <div>
         <MetaTags>
             <title>Référencement naturel - Meta-SEO</title>
-            <meta name="description" content='Le référencement naturel est un moyen efficace de générer plus de trafic sur votre site web. Les mots-clés, le contenu optimisé ou encore les balises HTML sont tous des points-clés à optimiser.' />
+            <meta name="description" content='Le référencement naturel est un moyen efficace de générer plus de trafic sur votre site web.' />
         </MetaTags>
         
         <LineFeed />

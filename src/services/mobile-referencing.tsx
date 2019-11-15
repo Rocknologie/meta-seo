@@ -8,7 +8,7 @@ export const MobileReferncingPage: React.FC = () => (
     <div>
         <MetaTags>
             <title>Référencement mobile - Meta-SEO</title>
-            <meta name="description" content='Le référencement mobile permet d’améliorer le positionnement d’un contenu web adapté aux appareils mobiles sur les pages de résultats des moteurs de recherche et sur l’AppStore et le Google Play Store' />
+            <meta name="description" content='Le référencement mobile permet d’améliorer le positionnement d’un contenu web adapté aux appareils mobiles.' />
         </MetaTags>
         
         <LineFeed />

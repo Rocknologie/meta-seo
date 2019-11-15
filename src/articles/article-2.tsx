@@ -7,7 +7,7 @@ export const Article2Page: React.FC = () => (
     <div>
         <MetaTags>
             <title>Le Black Friday et ses impacts sur le SEO</title>
-            <meta name="description" content="Les experts du référencement nous parlent de leurs différentes techniques spéciales “SEO Black Friday” : articles sur le Black Friday, réductions alléchantes préparées, optimisation encore plus poussée sur les sites web des e-commerçants, etc..." />
+            <meta name="description" content="Les experts du référencement nous parlent de leurs différentes techniques spéciales “SEO Black Friday” : articles sur le Black Friday, réductions alléchantes préparées, etc..." />
         </MetaTags>
         
         <LineFeed />    

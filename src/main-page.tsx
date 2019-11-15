@@ -9,7 +9,7 @@ export const MainPage: React.FC = () => (
      <div>
           <MetaTags>
             <title>Agence de référencement de site web - Meta-SEO</title>
-            <meta name="description" content="Optimisez votre site grâce à MetaSEO, l’agence de référencement de site web. Nous proposons des prestations : référencement naturel, référencement mobile, visibilité SEO, Audits SEO, ainsi que diverses formations." />
+            <meta name="description" content="Optimisez votre site grâce à MetaSEO, l’agence de référencement de site web : référencement naturel, référencement mobile, visibilité SEO, Audits SEO." />
         </MetaTags>
         
           <LineFeed />    
