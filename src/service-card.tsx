@@ -6,11 +6,12 @@ interface ServiceCardProps {
     title: string;
     content: string;
     href: string;
+    alt: string;
 }
 
 export const ServiceCard: React.FC<ServiceCardProps> = (props) => (
     <Card color='yellow' centered >
-        <Image src={props.img}  height='50' wrapped ui={false}/>
+        <Image alt={props.alt} src={props.img}  height='50' wrapped ui={false}/>
         <Card.Content color='blue'>
             <Card.Header >
                 <p>{props.title}</p>
