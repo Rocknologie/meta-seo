@@ -8,7 +8,7 @@ export const SocialReferencingPage: React.FC = () => (
     <div>
          <MetaTags>
             <title>Visibilité SEO - Meta-SEO</title>
-            <meta name="description" content='Le référencement social agit sur la visibilité SEO au sein des différents réseaux sociaux. Notre agence vous offre des services de community management et bien plus, afin d’améliorer la visibilité de votre entreprise / marque.' />
+            <meta name="description" content='Le référencement social agit sur la visibilité SEO au sein des différents réseaux sociaux.' />
         </MetaTags>
         
         <LineFeed />
