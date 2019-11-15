@@ -7,7 +7,7 @@ export const Article3Page: React.FC = () => (
     <div>
         <MetaTags>
             <title>Pourquoi avoir recours à une agence de seo ?</title>
-            <meta name="description" content="Avoir recours à une agence de SEO plutôt que de devoir tout apprendre sur le tas pourrait vous faire gagner beaucoup de temps et d’argent. Le référencement est peuplé de bonnes pratiques qui doivent être respectées." />
+            <meta name="description" content="Avoir recours à une agence de SEO plutôt que de devoir tout apprendre sur le tas pourrait vous faire gagner beaucoup de temps et d’argent." />
         </MetaTags>
         
         <LineFeed />    

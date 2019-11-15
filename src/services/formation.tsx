@@ -7,7 +7,7 @@ export const FormationPage: React.FC = () => (
     <div>
         <MetaTags>
             <title>Comment référencer son site - Meta-SEO</title>
-            <meta name="description" content='Comment référencer son site ? Notre agence SEO répond à cette question en proposant diverses formations afin de vous apprendre à référencer correctement votre contenu web, que ce soit un site web ou une application mobile.' />
+            <meta name="description" content='Comment référencer son site ? Notre agence SEO répond à cette question en vous proposant diverses formations.' />
         </MetaTags>
         
         <LineFeed />

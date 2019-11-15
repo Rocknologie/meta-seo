@@ -7,7 +7,7 @@ export const Article1Page: React.FC = () => (
     <div>
         <MetaTags>
             <title>Google rend son moteur de recherche encore plus intelligent</title>
-            <meta name="description" content="Suite à la mise à jour de son algorithme, le référencement Google se renforce davantage, créant ainsi une vraie bataille sans fin, toujours plus difficile, au sein de la concurrence." />
+            <meta name="description" content="Suite à la mise à jour de son algorithme, le référencement Google se renforce davantage au niveau du référencement." />
         </MetaTags>
         
         <LineFeed />    
